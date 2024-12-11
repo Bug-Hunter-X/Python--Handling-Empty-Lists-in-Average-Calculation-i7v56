@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle bug in Python: handling empty lists when calculating the average. The `calculate_average` function initially lacked proper handling for empty input lists, leading to a `ZeroDivisionError`. The solution showcases a robust approach that avoids this error by explicitly checking for an empty list and returning 0 in that case.
